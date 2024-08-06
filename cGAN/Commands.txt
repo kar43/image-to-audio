@@ -1,0 +1,17 @@
+
+
+## Train from scratch:
+
+python train.py --dataroot ./datasets/ImageNet_ESC-50/ --name experiment_name --model cgan --dataset_mode unaligned --niter 200 --niter_decay 100 --lr 0.001 --lambda_L1 10.0 --spec_type mel --which_model_netG unet_256 --npy_spec
+
+## Continue training:
+
+python train.py --dataroot ./datasets/ImageNet_ESC-50/ --name experiment_name --model cgan --dataset_mode unaligned --niter 200 --niter_decay 100 --lambda_L1 10.0 --spec_type mel --which_model_netG resnet_9blocks --load_epoch 85 --epoch_cont 85 --continue_train --npy_spec
+
+## Test latest model
+
+python test.py --dataroot ./datasets/ImageNet_UrbanSound8K/ --name experiment_name --model cgan --dataset_mode unaligned --phase test --spec_type mel --which_model_netG unet_256 --how_many 1100 --npy_spec
+
+## Test model from the specific epoch
+
+python test.py --dataroot ./datasets/ImageNet_ESC-50/ --name experiment_name --model cgan --dataset_mode unaligned --phase test --spec_type mel --which_model_netG unet_256 --how_many 232 --which_epoch 375 --npy_spec 
