@@ -10,14 +10,14 @@ Master's project on generation of audio from images using Conditional GAN (Unive
 #### Using training data:
 
 <img src='https://github.com/user-attachments/assets/65c90140-f9da-4774-99fd-d9ab76f88cd2) ![image](https://github.com/user-attachments/assets/b58e73c5-5756-4d3a-9a45-14e0f457ee25' width=410>
-<img src='https://github.com/user-attachments/assets/fa5e9f11-164d-4fd1-aa5b-93d5feb28b61' width=400>
+<img src='https://github.com/user-attachments/assets/fa5e9f11-164d-4fd1-aa5b-93d5feb28b61' width=390>
 
 
 
 #### Using test data:
 
 <img src='https://github.com/user-attachments/assets/5bee20cd-e71d-44f6-b302-9a8797f0f2a0) ![image](https://github.com/user-attachments/assets/aa5becb5-4f70-4d4c-b44c-bb131138e12e' width=310>
-<img src='https://github.com/user-attachments/assets/5802a8a1-0769-436b-a4d0-5117919b845a' width=400>
+<img src='https://github.com/user-attachments/assets/5802a8a1-0769-436b-a4d0-5117919b845a' width=390>
 
 ## Running the model
 
