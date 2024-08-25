@@ -1,6 +1,6 @@
 # Image-to-Sound Synthesis using Generative Adversarial Network
 
-Master's project on generation of audio from images using Conditional GAN (University of York).
+Master's project on audio generation from images using Conditional GAN (University of York).
 
 <img src='https://github.com/user-attachments/assets/6f115df0-7429-47ef-9402-45ae899d2939' width=990>
 
